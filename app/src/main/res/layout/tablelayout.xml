@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+
+    <TableRow android:background="@android:color/darker_gray">
+        <TextView
+            android:text=" Hello TableLayout"
+            android:layout_height="40dp"
+            android:layout_width="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:gravity="center_vertical"/>
+
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="30dp"
+            android:background="@android:color/black"
+            android:gravity="center_vertical"
+            android:text="      Open..."
+            android:textColor="@android:color/white"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:gravity="right"
+            android:text="Ctrl-O"
+            android:textColor="@android:color/white"
+            android:textSize="15dp" />
+    </TableRow>
+
+
+    <TableRow>
+        <TextView
+            android:layout_height="30dp"
+            android:background="@android:color/black"
+            android:gravity="center_vertical"
+            android:text="      Save..."
+            android:textColor="@android:color/white"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_height="30dp"
+            android:background="@android:color/black"
+            android:text="Ctrl-S"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"
+            android:gravity="right"/>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="30dp"
+            android:background="@android:color/black"
+            android:gravity="center_vertical"
+            android:text="      Save As..."
+            android:textColor="@android:color/white"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_height="30dp"
+            android:background="@android:color/black"
+            android:gravity="right"
+            android:text="Ctrl-Shift-S"
+            android:textColor="@android:color/white"
+            android:textSize="15dp" />
+    </TableRow>
+
+    <TableRow >
+        <TextView
+            android:layout_height="1dp"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:layout_height="1dp"
+            android:background="@android:color/white" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="30dp"
+            android:background="@android:color/black"
+            android:gravity="center_vertical"
+            android:text=" X   Import..."
+            android:textColor="@android:color/white"
+            android:textSize="15dp" />
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_height="30dp"
+            android:background="@android:color/black"
+            android:gravity="center_vertical"
+            android:text=" X   Export..."
+            android:textColor="@android:color/white"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:background="@android:color/black"
+            android:gravity="right"
+            android:text="Ctrl-E"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+    </TableRow>
+
+    <TableRow >
+        <TextView
+            android:layout_height="1dp"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:layout_height="1dp"
+            android:background="@android:color/white" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="185dp"
+            android:layout_height="30dp"
+            android:background="@android:color/black"
+            android:gravity="center_vertical"
+            android:text="      Quit"
+            android:textColor="@android:color/white"
+            android:textSize="15dp" />
+    </TableRow>
+
+</TableLayout>
